@@ -40,6 +40,11 @@ code .
 ```bash
 npm i
 ```
+### Crie um arquivo .env e adicione na seguinte variável a mesma porta definida no backendHublocal -> .env.development
+
+```bash
+BACKEND_API_PORT=
+```
 
 ### Use a seguinte linha de comando para subir o projeto
 
