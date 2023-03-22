@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "vite/client"],
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strictPropertyInitialization": false,
+    "baseUrl": "./",
+    "paths": {
+      "@Assets/*": ["src/Assets/*"],
+      "@Core/*": ["src/Core/*"],
+      "@Frameworks/*": ["src/Frameworks/*"],
+      "@Interfaces": ["src/Interfaces/index"],
+      "@Components/*": ["src/Presentation/Components/*"],
+      "@Contexts/*": ["src/Presentation/Contexts/*"],
+      "@Pages/*": ["src/Presentation/Pages/*"],
+      "@Router": ["src/Presentation/Router/index"],
+      "@Service/*": ["src/Service/*"]
+    }
+  },
+  "include": ["src"]
+}
